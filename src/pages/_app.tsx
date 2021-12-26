@@ -8,9 +8,8 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Portifolio | Jonathan Silva</title>
-        <link rel="shortcut-icon" href="#"></link>
-        <link rel="shortcut-icon" href="/public/favicon.png" />
-        <link rel="apple-touch-icon" href="#"></link>
+        <link rel="shortcut-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="description" content="Blog - Jonathan Silva" />
       </Head>
