@@ -6,7 +6,7 @@ export const Wrapper = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;
+  margin-top: 10rem;
 `
 
 export const H2 = styled.h2`
@@ -29,31 +29,17 @@ export const H2 = styled.h2`
   }
 `
 export const MainContainer = styled.div`
-  width: 100%;
-  //margin-top: 5rem;
-  margin-bottom: -50rem;
-`
-export const Container = styled.div`
   display: grid;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  grid-gap: 25rem;
-  margin-top: 5rem;
-  position: relative;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  opacity: 0;
-  animation: slideup 2s forwards;
 
-  @keyframes slideup {
-    to {
-      transform: translateY(-50rem);
-      opacity: 1;
-    }
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 15rem;
+  margin-top: 5rem;
+
+  @media (min-width: 620px) {
+    grid-auto-flow: column;
   }
 `
 export const Container1 = styled.div`
-  margin-top: 50rem;
   width: 22rem;
   height: 22rem;
   border-radius: 2rem;

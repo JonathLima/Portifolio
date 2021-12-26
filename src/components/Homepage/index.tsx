@@ -6,7 +6,7 @@ const Homepage = () => {
         <S.Container>
           <S.Me>
             <S.Profile
-              src="/img/profile-user.png"
+              src="/img/photo-user.jpg"
               alt="Imagem de perfil com Jonathan Silva"
             />
             <S.Text>

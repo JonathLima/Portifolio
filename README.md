@@ -1,11 +1,10 @@
 # <div align="center">Portifolio Website</div>
 
-#### <div align="center"> Website: </br> **Link: https://jonathan-silva.vercel.app/#** </div>
+#### <div align="center"> Website: </br> **https://jonathan-silva.vercel.app/#** </div>
 
 <p align="center">
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/JonathSilva/portifolio
-">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/JonathSilva/portifolio">
 
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/JonathSilva/portifolio">
 

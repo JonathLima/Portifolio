@@ -37,7 +37,7 @@ export const Container = styled.div`
 export const Profile = styled.img`
   width: 20rem;
   height: 20rem;
-  border: solid 0.2rem #dfe1e6;
+  border: solid 0.2rem #393a4f;
   border-radius: 50%;
   opacity: 0;
   animation: opacity 3s forwards;

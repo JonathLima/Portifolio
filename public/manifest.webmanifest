@@ -3,7 +3,30 @@
   "short_name": "Meu Portifólio Pessoal",
   "background_color": "#283667",
   "description": "Meu Portifólio Pessoal",
+  "icons": [{
+    "src": "/public/favicon.ico",
+    "sizes": "512x512",
+    "type": "image/x-icon"
+  }, {
+    "src": "/public/img/profile-user.png",
+    "sizes": "500x500",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }],
+
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#283667"
-}
+  }
+
+
+
+
+
