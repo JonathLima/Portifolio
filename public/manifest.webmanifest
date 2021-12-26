@@ -1,0 +1,9 @@
+{
+  "name": "Portifolio | Jonathan Silva",
+  "short_name": "Meu Portifólio Pessoal",
+  "background_color": "#283667",
+  "description": "Meu Portifólio Pessoal",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#283667"
+}
