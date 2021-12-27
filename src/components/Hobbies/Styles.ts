@@ -50,10 +50,6 @@ export const Container1 = styled.div`
   box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.2);
   opacity: 0;
   animation: up 2s forwards;
-  &:hover {
-    transform: scale(1.2);
-    transition: 0.2s ease;
-  }
 
   @keyframes up {
     to {
@@ -72,6 +68,10 @@ export const Logo1 = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
+  &:hover {
+    transform: scale(1.2);
+    transition: 0.2s ease;
+  }
 `
 export const Text1 = styled.p`
   font-weight: 100;
