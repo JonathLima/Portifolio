@@ -5,7 +5,8 @@ export const Wrapper = styled.nav`
   width: 100%;
   z-index: 1000;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-self: center;
   position: fixed;
   box-shadow: 1px 5px 28px 5px rgba(0, 0, 0, 0);
   border-bottom: solid 0.1rem rgba(223, 225, 230, 0.1);
@@ -44,10 +45,9 @@ export const Ul = styled.ul`
 `
 
 export const Li = styled.li`
-  /* margin-top: 1.5rem; */
   list-style: none;
   justify-content: center;
-  align-items: center;
+  align-self: center;
   @media (max-width: 1200px) {
     visibility: hidden;
     position: absolute;
@@ -76,5 +76,28 @@ export const LightDark = styled.li`
 
   @media (max-width: 1200px) {
     /* margin-left: 5.5rem; */
+  }
+`
+
+export const Logo = styled.img`
+  position: relative;
+  width: 4.5rem;
+  height: 4.5rem;
+  align-self: center;
+  left: 20rem;
+
+  @media (max-width: 1200px) {
+    margin: 0 auto;
+    left: 6.5rem;
+  }
+`
+
+export const Home = styled.a`
+  color: #dfe1e6;
+  text-decoration: none;
+  margin: 1.5rem;
+  &:hover {
+    filter: brightness(200%);
+    transition: 0.5s;
   }
 `

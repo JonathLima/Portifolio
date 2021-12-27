@@ -4,6 +4,9 @@ import * as S from './styles'
 const Header = () => {
   return (
     <S.Wrapper>
+      <S.Home href="#">
+        <S.Logo src="/img/header-logo.png" alt="header-logo" />
+      </S.Home>
       <S.Header>
         <S.Ul>
           <S.Li>

@@ -35,19 +35,31 @@ export const MainContainer = styled.div`
   grid-gap: 15rem;
   margin-top: 5rem;
 
-  @media (min-width: 620px) {
+  @media (min-width: 820px) {
     grid-auto-flow: column;
+    grid-gap: 30rem;
   }
 `
 export const Container1 = styled.div`
   width: 22rem;
   height: 22rem;
+  position: relative;
+  top: 50rem;
   border-radius: 2rem;
   background-color: #182446;
   box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: up 2s forwards;
   &:hover {
     transform: scale(1.2);
     transition: 0.2s ease;
+  }
+
+  @keyframes up {
+    to {
+      transform: translateY(-50rem);
+      opacity: 1;
+    }
   }
 `
 export const Link = styled.a`

@@ -23,7 +23,7 @@ const Hobbies = () => {
               rel="noopener"
             >
               <S.Logo1 src="/img/twitch-logo.png" alt="twitch-logo" />
-              <S.Text1>Live streaming</S.Text1>
+              <S.Text1>Live Streaming</S.Text1>
             </S.Link>
           </S.Container1>
         </S.MainContainer>

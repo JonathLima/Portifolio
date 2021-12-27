@@ -7,9 +7,10 @@ const About = () => {
       <S.Wrapper id="about">
         <S.H2>ABOUT ME</S.H2>
         <S.Paragh>
-          Hi, I'm Jonathan Silva, a self-taught Brazilian developer currently
-          studying to become a full stack software developer. I'm always willing
-          to learn new things and spread knowledge around the world.
+          Hi, I'm Jonathan Silva, a Brazilian developer passionate about art and
+          technology, who is currently studying to become a full stack
+          developer. I'm always willing to learn new things and spread knowledge
+          around the world.
         </S.Paragh>
       </S.Wrapper>
     </>
