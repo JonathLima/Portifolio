@@ -12,6 +12,7 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="favicon.ico" />
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="description" content="Blog - Jonathan Silva" />
+        <meta name="theme-color" content="#182446" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />

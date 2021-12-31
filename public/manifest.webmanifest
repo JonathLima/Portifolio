@@ -1,15 +1,16 @@
 {
   "name": "Portifolio | Jonathan Silva",
   "short_name": "Meu Portifólio Pessoal",
-  "background_color": "#283667",
+  "background_color": "#182446",
   "description": "Meu Portifólio Pessoal",
   "icons": [{
     "src": "/public/favicon.ico",
     "sizes": "512x512",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "purpose": "any maskable"
   }, {
-    "src": "/public/img/profile-user.png",
-    "sizes": "500x500",
+    "src": "/public/img/photo-user.jpg",
+    "sizes": "607x607",
     "type": "image/png"
   }, {
     "src": "images/touch/homescreen96.png",
@@ -22,8 +23,8 @@
   }],
 
   "display": "fullscreen",
-  "start_url": "/",
-  "theme_color": "#283667"
+  "start_url": "/#",
+  "theme_color": "#182446"
   }
 
 
